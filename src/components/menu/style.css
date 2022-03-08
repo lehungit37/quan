@@ -1,0 +1,31 @@
+.menu{
+    width: 100%;
+}
+
+.menu table{
+    width: 100%;
+    border-collapse: collapse;
+   border: 1px solid #000020;
+    
+}
+
+.menu table th {
+    text-align: left;
+    padding: 10px 10px
+}
+.menu table tr  {
+   border-bottom: 1px solid #000020;
+   padding: 10px
+}
+.menu table tr td  {
+   padding: 10px 10px
+}
+.menu table tr td button{
+    width: 100%;
+    background: #007bff;
+    padding: 10px;
+    outline: none;
+    color: #fff;
+    border-color: none;
+    cursor: pointer;
+}

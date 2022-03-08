@@ -1,0 +1,47 @@
+.order{
+    width: 100%;
+}
+
+.order table{
+    width: 100%;
+    border-collapse: collapse;
+   border: 1px solid #000020;
+    
+}
+
+.order table th {
+    text-align: left;
+    padding: 10px 10px
+}
+.order table tr  {
+   border-bottom: 1px solid #000020;
+   padding: 10px
+}
+.order table tr td  {
+   padding: 10px 10px
+}
+.order table tr td button{
+    background: #dc3545;
+    padding: 10px;
+    outline: none;
+    color: #fff;
+    border-color: none;
+    cursor: pointer;
+}
+
+.total{
+    display: flex;
+    justify-content: flex-end;
+    margin-top:20px;
+    align-items: center;
+
+}
+.total button{
+    background: #007bff;
+    padding: 10px;
+    outline: none;
+    color: #fff;
+    border-color: none;
+    cursor: pointer;
+    margin-left: 10px
+}
